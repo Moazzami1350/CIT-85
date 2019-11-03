@@ -1,0 +1,17 @@
+p {
+  margin: 20px;
+  max-width: 600px;
+  text-indent: 10px;
+  text-align: justify;
+}
+
+p:first-letter {
+    font-family: serif;
+    font-size: 32px;
+    line-height: 1;
+}
+
+p:first-line {
+    color: red;
+    font-weight: 800;
+}
