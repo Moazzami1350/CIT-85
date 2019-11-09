@@ -1,0 +1,35 @@
+div, p, h1 {
+  width: 50%;
+  height: auto;
+  border: 1px solid black;
+}
+
+/* 1.Selects every <div> element that is the first child of its parent */
+div:first-child { color: blue; }
+
+/* 2.Selects every <p> element that is the last child of its parent */
+p:last-child { color: green; }
+
+/* 3.Selects the element with id="Good" */
+#Good { color: purple; }
+
+/* 4.Selects all elements with class="California" */
+.California { color: orange; }
+
+/* 5.Selects all <h1> elements */
+h1 {color: red; }
+
+/* 6.Selects all <div> elements */
+div {color: silver; }
+
+/* 7.Selects all <p> elements */
+p {color: darkred; }
+
+/* 8.Selects all <p> elements where the parent is a <div> element */
+div>p { color: gray; }
+
+/* 9.Selects all elements */
+body {color: yellow; }
+
+/* 10.Selects the first line of every <p> element */
+p::first-line { color: black; }
