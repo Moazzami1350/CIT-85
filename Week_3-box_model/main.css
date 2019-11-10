@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+
+div {
+  text-align: justify;
+  border: 2px solid darkblue;
+  color: darkred;
+  background-color: lemonchiffon;
+  line-height: 1.5;
+}
+
+.inline {
+  display: block;
+  font-weight: bold;
+  color: white;
+  background-color: darkgreen;
+}
+
+.block {
+  display: inline;
+  font-weight: bold;
+  color: white;
+  background-color: darkgreen;
+}
