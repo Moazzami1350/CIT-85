@@ -1,0 +1,67 @@
+h1 {
+  font-size: 40px;
+}
+
+#serif {
+  font-family: serif;
+}
+
+#san-serif {
+  font-family: sans-serif;
+}
+
+#google {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+
+.color {
+  color: red;
+}
+
+.weight1 {
+  font-weight: 300;
+}
+
+.weight2 {
+  font-weight: 400;
+}
+
+.weight3 {
+  font-weight: 900;
+}
+
+#Transform {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+#letter-spacing {
+  letter-spacing: 1rem;
+}
+
+#word-spacing {
+  word-spacing: 2rem;
+}
+
+#shadow {
+  text-shadow: 3px 3px 1px gray;
+}
+
+a {
+  color: blue;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkblue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#indent {
+  text-align: justify;
+  font-size: 40px;
+  text-indent: 2rem;
+}
