@@ -1,0 +1,46 @@
+h1 {
+  font-size: 40px;
+}
+
+header, nav, section, article, aside, footer {
+  text-align: center;
+  box-sizing: border-box;
+  color: black;
+  border-style: double;
+  border-color: black;
+}
+
+header {
+  height: 100px;
+}
+
+nav {
+  height: 100px;
+}
+
+section.all {
+  float: left;
+  width: 60%;
+  height: 300px;
+}
+
+section.one {
+  height: 150px;
+}
+
+article {
+  height: 145px;
+}
+
+aside {
+  padding-top: 80px;
+  float: left;
+  width: 40%;
+  height: 300px;
+}
+
+footer {
+  float: left;
+  height: 100px;
+  width: 100%;
+}
