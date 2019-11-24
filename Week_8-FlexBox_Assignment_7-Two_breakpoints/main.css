@@ -1,0 +1,76 @@
+body, html, header, article, aside, footer {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: bold;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header, article, aside, footer {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  background-color: tomato;
+}
+
+article {
+  text-align: left;
+  background-color: deepskyblue;
+}
+
+#one {
+  background-color: gold;
+}
+
+#two {
+  background-color: hotpink;
+}
+
+footer {
+  background-color: lightgreen;
+}
+
+@media (min-width:600px) {
+  body {
+    padding: 0 2em;
+  }
+
+  aside {
+    width: 50%;
+  }
+}
+
+@media (min-width:800px) {
+  body {
+    padding: 0 3em;
+  }
+
+  article {
+    width: 70%;
+    order: 2;
+  }
+
+  aside {
+    width: 15%;
+  }
+
+  #one {
+    order: 1;
+  }
+
+  #two {
+    order: 3;
+  }
+
+  footer {
+    order: 4;
+  }
+}
