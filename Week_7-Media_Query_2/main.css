@@ -1,0 +1,46 @@
+html, body, div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  border: 2px dashed red;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+div {
+  padding: 0;
+  height: 150px;
+  width: 100%;
+  /* border: 1px solid black; */
+  font: 700 2rem/4 sans-serif;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.flex1 {
+  background-color: tomato;
+}
+
+.flex2 {
+  background-color: powderblue;
+}
+
+.flex3 {
+  background-color: palegreen;
+}
+
+.flex4 {
+  background-color: yellow;
+}
+
+.flex5 {
+  background-color: mediumpurple;
+}

@@ -1,0 +1,19 @@
+.flex1 {
+  flex-basis: 100%;
+}
+
+.flex2 {
+  flex-basis: 60%;
+}
+
+.flex3 {
+  flex-basis: 40%;
+}
+
+.flex4 {
+  flex-basis: 50%;
+}
+
+.flex5 {
+  flex-basis: 50%;
+}
