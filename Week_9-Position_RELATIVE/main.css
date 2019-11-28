@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  font: bold 35px san-serief;
+  border: 2px solid green;
+  background-color: lightgreen;
+}
+
+#relative {
+  position: relative;
+  top: 100px;
+  left:20px;
+}
+
+#color {
+  color: red;
+}
