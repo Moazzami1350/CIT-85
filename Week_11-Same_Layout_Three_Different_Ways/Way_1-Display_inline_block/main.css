@@ -1,0 +1,39 @@
+html, body, header, article, div, footer {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+article {
+  height: 216px;
+  border: 8px solid darkgreen;
+}
+
+header {
+  height: 150px;
+  border: 8px solid blue;
+  background-color: gold;
+}
+
+div {
+  height: 200px;
+  border: 5px solid black;
+  display: inline-block;
+}
+
+footer {
+  height: 150px;
+  border: 8px solid red;
+  background-color: indigo;
+}
+
+#left {
+  width: 20%;
+  background-color: lightblue;
+}
+
+#right {
+  width: 80%;
+  background-color: forestgreen;
+}
