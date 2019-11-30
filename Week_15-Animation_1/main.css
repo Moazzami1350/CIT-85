@@ -1,0 +1,36 @@
+html, body, div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  border: 10px solid tomato;
+  font: bold 4rem/7 brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  border: 10px solid darkgreen;
+  background-color: lightgreen;
+
+  animation-name: wackabacka;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-duration: 1500ms;
+  animation-delay: 150ms;
+}
+
+@keyframes wackabacka {
+  50% {
+    background-color: green;
+  }
+}
