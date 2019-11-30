@@ -1,0 +1,27 @@
+header, footer {
+  width: 100%;
+  height: 60px;
+  font: bold 2.5rem/1.5 'Roboto', serif, sans-serif;
+  border: 5px double white;
+  color: lightyellow;
+  background-color: black;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+nav {
+  margin-top: 20px;
+  hight: 50px;
+  display: flex;
+}
+
+a {
+  margin: 20px;
+}
+
+h3 {
+  padding: 5px;
+  text-indent: 5px;
+  background: linear-gradient(to left, #ffffff 0%, #ffcc66 100%);
+  box-shadow: 5px 5px 5px gray;
+}
