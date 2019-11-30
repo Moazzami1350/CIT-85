@@ -1,0 +1,33 @@
+i {
+  padding: 30px;
+  margin: 15px;
+  font-size: 70px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: 3px 3px 3px gray;
+}
+
+.fa-spider {
+  color: red;
+}
+
+.fa-ambulance {
+  color: lightblue;
+}
+
+.fa-globe {
+  color: orange;
+}
+
+.fa-bell {
+  color: yellow;
+}
+
+.fa-calendar-alt {
+  color: violet;
+}
+
+.fa-cloud-sun-rain {
+  color: lightyellow;
+}
