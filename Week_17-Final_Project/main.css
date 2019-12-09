@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  background-color: black;
+}
+
+img.logo {
+  width: 160px;
+  height: 70px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.one {
+  margin-top: 70px;
+  margin-left: -20px;
+  text-shadow: 2px 2px 2px brown;
+  color: lightyellow;
+}
+
+img.header {
+  width: 60%;
+  flex-grow: 1;
+}
+
+nav {
+  padding: 5px;
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: yellowgreen;
+}
+
+div {
+  padding: 1px 20px 20px 20px ;
+  margin-top: 20px;
+  width: auto;
+}
+
+img.gallery {
+  width: 170px;
+  height: 170px;
+  border: 3px solid PaleGoldenRod;
+  border-radius: 10%;
+  margin: 6px;
+}
+
+img.gallery:hover {
+  border-color: gray;
+  background-color: beige;
+}
+
+.two {
+  text-align: center;
+}
+
+article {
+  float: left;
+  width: 75%;
+  height: 650px;
+  background-color: azure;
+}
+
+aside {
+  float: left;
+  width: 25%;
+  height: 650px;
+  background-color: beige;
+}
+
+.footer {
+  padding: 12px;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: brown;
+}
+
+nav ul li {
+  margin: 20px;
+  display: inline;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+  color: brown;
+}
+
+.footer ul li {
+  margin: 50px;
+  display: inline;
+  list-style-type: none;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin-left: 5px;
+  color: brown;
+}
+
+p {
+  text-align: justify;
+  margin: 10px;
+  line-height: 1.7;
+  text-indent: 10px;
+}
+
+#color {
+  font-weight: bold;
+  color: brown;
+}
